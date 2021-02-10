@@ -44,6 +44,7 @@ import SwiftUI
 /// - Note: `TextState` does not support _all_ `LocalizedStringKey` permutations at this time, in
 ///   particular, for example interpolated `SwiftUI.Image`s. `TextState` also uses reflection to
 ///   determine `LocalizedStringKey` equatability, so look out for edge cases.
+/*
 public struct TextState: Equatable, Hashable {
   fileprivate var modifiers: [Modifier] = []
   fileprivate let storage: Storage
@@ -302,3 +303,4 @@ extension LocalizedStringKey: CustomDebugOutputConvertible {
     self.formatted().debugDescription
   }
 }
+*/
